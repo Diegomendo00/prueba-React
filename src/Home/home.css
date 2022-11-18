@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
+
+.titulo{
+	text-align: center;
+	font-family: "raleway";
+}
+
+#caja {
+	background-image: url("https://img.freepik.com/foto-gratis/cielo-azul_53876-31350.jpg?w=2000");
+	background-size: 100% 100%;
+   background-repeat: no-repeat;
+	min-height: 700px;
+}
+
+@media screen and (max-width: 920px) {
+	#caja {
+	background-image: url("https://img.freepik.com/foto-gratis/cielo-azul_53876-31350.jpg?w=2000");
+	background-size: 100% 100%;
+   background-repeat: no-repeat;}
+	.menu{
+		display: flex;
+		min-height: 20px;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.menu {
+	display: flex;
+	list-style:none;
+	justify-content: center;
+}
+
+li {
+	padding: 1em
+}
+
+#btn {
+	background-color: rgba(6, 97, 216, 0.693);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+

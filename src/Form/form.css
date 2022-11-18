@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
+
+.container_form{
+	display: none;
+}
+
+.open{
+	max-width: 100%;
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+}
+
+.linea{
+	font-family: "raleway";
+	text-align: center;
+}
+
+.total{
+	min-height: 400px;
+	width: 500px;
+	border: 1px black solid;
+	border-radius: 10px;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	gap: 15px
+}
+
+input{
+	border-radius: 6px;
+	border: none;
+	height: 25px;
+	width: 60%
+}
+
+.row{
+	display:flex;
+	justify-content: space-between;
+	width: 80%;
+	font-size: medium;
+	font-weight: bold;
+	background:rgba(6, 97, 216, 0.513);
+	border-radius: 5px
+}
+
+form button{
+	background-color: rgba(6, 97, 216, 0.693);
+  color: whitesmoke;
+  cursor: pointer;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.btnClose{
+	display: flex;
+	justify-content: flex-end;
+	top: 5px;
+	right: 5px;
+	
+}
+
+#close{
+	background: red;
+	border-radius: 4px;
+	cursor: pointer
+}
